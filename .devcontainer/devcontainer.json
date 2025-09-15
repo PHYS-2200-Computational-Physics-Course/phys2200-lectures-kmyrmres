@@ -18,3 +18,4 @@
   // have access to files in the /workspace/<github-repo-name> folder. 
   "postCreateCommand": "julia -e 'using Pkg; Pkg.activate(\".\"); Pkg.instantiate()'",
 }
+
